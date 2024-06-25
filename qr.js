@@ -56,11 +56,11 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id, { text: 'GEEK-MD-WHATSAPP-BOT;;;' + b64data });
+				   let session = await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id, { text: 'RICHY-MD;;;' + b64data });
 	
 				   let FLASH_MD_TEXT = `
 *𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝙎 𝙊𝙉𝙇𝙄𝙉𝙀*
-*GEEK 𝙏𝙀𝘾𝙃*
+*GEEK 𝙏𝙀𝘾𝙃* *NOW YOU CAN DEPLOIE RICHY*
 *𝙊𝙒𝙉𝙀𝙍 GEEK 𝘼𝘿𝘼𝙈𝙎*
 ____________________________________
 ╔════◇
@@ -71,7 +71,7 @@ ____________________________________
 ╔═════◇
 ║ 『••• OWNER INFO •••』
 ║
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _237698046545_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: *_237620857930_*
 
 ║ ❒ 𝐑𝐞𝐩𝐨: _https://github.com/ibrahimaitech_
 
@@ -79,7 +79,7 @@ ____________________________________
 
 ║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaWQOHsFSAsv3SD3dJ3a_
 
-║ ❒ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/Ruben_De_Jean_
+║ ❒ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/mc_Rubenx
 
 ║ 
 ╚════════════════════╝ 
